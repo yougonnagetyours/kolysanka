@@ -1,9 +1,11 @@
 {
+  "homepage": "https://yougonnagetyours.github.io/kolysanka/",
   "name": "kolysanka",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "dxf-writer": "^1.6.2",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "2.1.8",
@@ -11,6 +13,8 @@
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
