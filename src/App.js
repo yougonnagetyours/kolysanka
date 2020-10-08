@@ -18,7 +18,7 @@ class App extends Component {
               .deleteAll()
               .typeString('Gwiazdy miastom dają znać')
               .deleteAll()
-              .typeString('Że dzieci muszą spaaać')
+              .typeString('Że dzieci muszą spaaać') 
               .pauseFor(1500)
               .deleteAll()
               .typeString('Ach śpiiij')
@@ -28,7 +28,7 @@ class App extends Component {
               .typeString('Jeśli gwiazdki z nieba chcesz')
               .pauseFor(1)
               .deleteAll()
-              .typeString('Dostaniesz <3')
+              .typeString('Dostaniesz <3 <3')
               .start();
           }}
         />
