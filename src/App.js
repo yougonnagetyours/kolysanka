@@ -28,7 +28,7 @@ class App extends Component {
               .typeString('Jeśli gwiazdki z nieba chcesz')
               .pauseFor(1)
               .deleteAll()
-              .typeString('Dostaniesz <3 <3')
+              .typeString('Dostaniesz <3 <3 <3')
               .start();
           }}
         />
